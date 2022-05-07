@@ -1,0 +1,116 @@
+/*
+exo6
+body {
+    background-color: whitesmoke;
+}
+
+#dessin {
+    position: absolute;
+    width: 25%;
+    height: auto;
+}
+
+#portrait {
+    position: absolute;
+    display: none;
+    width: 25%;
+    height: auto;
+}
+*/
+
+#mot {
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: none;
+}
+
+#resultat {
+    border: 2px solid black;
+    height: 10em;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#reponse {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 15px;
+}
+
+#pendu {
+    width: 100%;
+    height: 100%;
+}
+
+#bas {
+    width: 100%;
+    height: 50vh;
+}
+
+#reponse p {
+    margin-right: 10px;
+}
+
+#clavier {
+    border: 2px solid black;
+    padding: 5em 20px;
+    width: 100%;
+    align-self: center;
+    align-content: center;
+    margin: none;
+}
+
+#clavier button {
+    margin: auto;
+    width: 45px;
+    height: 40px;
+    margin: 5px;
+    background: bisque;
+    /* background-color: lightgray;*/
+}
+
+button {
+    border: none;
+    padding: 6px 0 6px 0;
+    border-radius: 75%;
+    border-bottom: 3px solid #6a6d67ad;
+    font: bold 13px Arial;
+    color: #555;
+    background: #fff;
+}
+
+img {
+    position: absolute;
+    /*padding-left: 30%;*/
+    /* padding-top: 10em;*/
+    max-width: none;
+    height: 100%;
+    width: 100%;
+}
+
+#letter_used {
+    border: none;
+    padding-top: none;
+    margin-top: none;
+}
+
+#letter_used p {
+    text-align: center;
+    font-size: xxx-large;
+    font-family: monospace;
+    letter-spacing: 10px;
+}
+
+
+/*@media (max-width: 800px) {
+    #jeu {
+        float: none;
+        width: auto;
+    }
+    #mot {
+        margin-right: 0px;
+    }
+}
